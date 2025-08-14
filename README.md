@@ -56,9 +56,9 @@ NumPy, Matplotlib, OpenCV, Jupyter
 
 | Model   | Params (M) | Time/Epoch | Acc (%) | Loss | Notes |
 |---------|------------|------------|---------|------|-------|
-| LeNet   | 0.06       | ~5s        | 85.2    | 0.42 | Classic CNN, small dataset-friendly |
-| AlexNet | 60         | ~20s       | 91.5    | 0.28 | Deep CNN with large receptive fields |
-| VGGNet | 14.7*       | ~35s       | 94.7    | 0.21 | Pretrained VGG16 backbone, frozen layers |
+| LeNet   | 0.06       | ~5s        | 99.78    | 0.0067 | Classic CNN, small dataset-friendly |
+| AlexNet | 60         | ~20s       | 93.56    | 0.1883 | Deep CNN with large receptive fields |
+| VGGNet | 14.7*       | ~35s       | 94.57    | 0.1486 | Pretrained VGG16 backbone, frozen layers |
 
 > \* VGGNet parameter count is reduced from 138M to ~14.7M due to excluding top layers and freezing base.
 
@@ -66,8 +66,6 @@ NumPy, Matplotlib, OpenCV, Jupyter
 ⚠️ Dataset
 Datasets are excluded from Git for size/privacy. Supply your own in the given folders.
 
-📜 License
-MIT License - see LICENSE.
 
 ✨ Author
 Your Ashutosh Mishra
